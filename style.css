@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url("./header.jpg");
+    background-size: cover;
+    
+   
+   
+   
+   
+   
+}
+body h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 3rem;
+    
+    
+    
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+#center a{
+    margin: 30vh auto;
+    padding: 10px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    overflow: hidden;
+    color: rgb(250, 245, 245);
+    transition: 0.2s;
+    border: 3px solid rgb(10, 247, 235);
+    border-radius: 10px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+#center a:hover{
+    color: rgb(17, 16, 16);
+    background: rgb(10, 247, 235);
+    box-shadow: 0 0 10px rgb(10, 247, 235), 0 0 40px rgb(10, 247, 235), 0 0 10px rgb(10, 247, 235);
+    transition-delay: 0.1s;
+
+}
+
+
+
