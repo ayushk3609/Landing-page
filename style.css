@@ -6,7 +6,11 @@
 
 body{
     background-image: url("./header.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
     
    
    
@@ -33,7 +37,7 @@ body h1{
 }
 
 #center a{
-    margin: 30vh auto;
+    margin: 40vh auto;
     padding: 10px;
     text-decoration: none;
     letter-spacing: 3px;
@@ -44,6 +48,7 @@ body h1{
     border: 3px solid rgb(10, 247, 235);
     border-radius: 10px;
     font-family: 'Dancing Script', cursive;
+    background-color: rgba(192,192,192,0.35);
 
 }
 
@@ -55,6 +60,35 @@ body h1{
     transform: scale(1.2);
 
 }
+
+ @media screen and (max-width:1019px){
+     body{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+     }
+    
+} 
+@media screen and (max-width:837px){
+    body{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+   
+} 
+
+@media screen and (max-width:375px){
+    body{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+   
+} 
 
 
 
