@@ -52,6 +52,7 @@ body h1{
     background: rgb(10, 247, 235);
     box-shadow: 0 0 10px rgb(10, 247, 235), 0 0 40px rgb(10, 247, 235), 0 0 10px rgb(10, 247, 235);
     transition-delay: 0.1s;
+    transform: scale(1.2);
 
 }
 
